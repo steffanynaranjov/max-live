@@ -1,0 +1,87 @@
+.containerInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.leftIcon {
+  height: 20px;
+  width: 20px;
+  margin-right: 4px;
+}
+.listedArtist {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.listedArtist:hover {
+  text-decoration: none;
+}
+.listIcon {
+  height: 20px;
+  width: 20px;
+  margin-right: 4px;
+}
+.containerArtistDetail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+}
+.containerInfoArt {
+  width: 60%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 56px;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: #ffffff;
+}
+.positionContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 48px;
+}
+.containerImg {
+  display: flex;
+  align-items: center;
+}
+.imageArtist {
+  width: 100%;
+  border-radius: 4px;
+  object-fit: scale-down;
+}
+.nameArtist {
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.artistList {
+  margin-right: 20px;
+}
+
+.ButtonBack {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.genreArtist {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+.popularityArtist {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+.otherInformation {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.genresAdition {
+  font-weight: bold;
+  font-size: 20px;
+}

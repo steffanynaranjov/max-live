@@ -1,0 +1,21 @@
+.containerViewList {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.headerViewList {
+  font-size: 40px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.buttonLink {
+  margin-right: 20px;
+}
+.buttonQueo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}

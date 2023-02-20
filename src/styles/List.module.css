@@ -1,0 +1,61 @@
+.listContainer {
+  display: flex;
+  width: 70%;
+  padding: 8px;
+  border-radius: 8px;
+  border-width: 2px;
+}
+.listContainer:hover {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.containerArtist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.constainerImageArtist {
+  width: 160px;
+  display: flex;
+  align-items: center;
+}
+
+.imageArtist {
+  width: 100%;
+  border-radius: 4px;
+  object-fit: scale-down;
+}
+
+.artistCenter {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.artisItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.artisName {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+}
+.artistGenre {
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.buttonAdd {
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  align-items: center;
+}
